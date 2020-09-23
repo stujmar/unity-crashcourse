@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 115655801}
   m_Layer: 0
   m_Name: Second Camera
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -250,7 +250,7 @@ Camera:
   m_GameObject: {fileID: 115655800}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -291,13 +291,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115655800}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.7990427, y: 2.2802448, z: -1.68149}
+  m_LocalRotation: {x: -0.0059853164, y: -0.33778772, z: 0.006342776, w: 0.94118196}
+  m_LocalPosition: {x: 6.79, y: 3.51, z: -1.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.4, y: -39.489002, z: 0.91600007}
 --- !u!1 &141635815
 GameObject:
   m_ObjectHideFlags: 0
