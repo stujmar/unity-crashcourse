@@ -362,7 +362,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 153758, guid: db0cb7477ec54a647a6b27e8ccd4259c, type: 3}
       propertyPath: m_Name
-      value: Cheir
+      value: Chair
       objectReference: {fileID: 0}
     - target: {fileID: 409100, guid: db0cb7477ec54a647a6b27e8ccd4259c, type: 3}
       propertyPath: m_LocalPosition.x
