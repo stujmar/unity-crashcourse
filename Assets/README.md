@@ -1,3 +1,6 @@
 {\rtf1}
 
-Hello World.
+
+## Feature Set
+
+- place furniture on a grid.
