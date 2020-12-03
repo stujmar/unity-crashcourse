@@ -400,6 +400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1500515366}
+  - component: {fileID: 1500515367}
   m_Layer: 0
   m_Name: MouseManager
   m_TagString: Untagged
@@ -421,6 +422,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1500515367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500515365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fcf50b08a3bbac44be9c8f68be92a1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickableLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  pointer: {fileID: 2800000, guid: 2bdd69e4d6bafcc439baf4cd6fdf71e3, type: 3}
+  target: {fileID: 2800000, guid: 78c236d2f0aaeb54799825b586e1d03a, type: 3}
+  doorway: {fileID: 2800000, guid: 93b6b5b776eee3d4197d3ccbda0839fb, type: 3}
+  combat: {fileID: 2800000, guid: fe29901f68eb35c4ba9664967ca27d4c, type: 3}
 --- !u!1 &1888959554
 GameObject:
   m_ObjectHideFlags: 0
