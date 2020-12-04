@@ -45,6 +45,8 @@ public class MouseManager : MonoBehaviour
             {
                 if(door)
                 {
+                    Transform doorway = hit.collider.gameObject.transform;
+                    OnClickEnvironment.Invoke(doorway.position);
                     Debug.Log("DOOR");
                 }
                 else
