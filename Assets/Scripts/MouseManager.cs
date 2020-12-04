@@ -32,6 +32,7 @@ public class MouseManager : MonoBehaviour
         if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 50, clickableLayer.value))
         {
             bool door = false;
+
             if(hit.collider.gameObject.tag == "Doorway")
             {
                 Cursor.SetCursor(doorway, new Vector2(16, 16), CursorMode.Auto);
@@ -42,7 +43,15 @@ public class MouseManager : MonoBehaviour
             }
             if(Input.GetMouseButtonDown(0))
             {
+                if(door)
+                {
+                    Debug.Log("DOOR");
+                }
+                else
+                {
                 OnClickEnvironment.Invoke(hit.point);
+                }
+
             }
         } else
         {
