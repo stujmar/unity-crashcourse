@@ -11,4 +11,8 @@ public class NPCController : MonoBehaviour
 
     int index;
     float speed, agentSpeed;
+    Transform player;
+
+    Animator anim;
+    NavMeshAgent agent;
 }
