@@ -15,7 +15,7 @@ public class MouseManager : MonoBehaviour
     public Texture2D target; // Clickable pointer.
     public Texture2D doorway; // Doorway pointer.
     public Texture2D combat; // Combat pointer.
-    public Texture2D chest;
+    public Texture2D chest; // Chest pointer.
 
     public EventVector3 OnClickEnvironment;
 
@@ -43,6 +43,7 @@ public class MouseManager : MonoBehaviour
             {
                 Cursor.SetCursor(chest, new Vector2(16, 16), CursorMode.Auto);
                 isChest = true;
+                Debug.Log("Chest Hover");
             } else
             {
                 Cursor.SetCursor(target, new Vector2(16, 16), CursorMode.Auto);
