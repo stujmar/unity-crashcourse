@@ -15,6 +15,7 @@ public class MouseManager : MonoBehaviour
     public Texture2D target; // Clickable pointer.
     public Texture2D doorway; // Doorway pointer.
     public Texture2D combat; // Combat pointer.
+    public Texture2D chest;
 
     public EventVector3 OnClickEnvironment;
 
@@ -31,26 +32,36 @@ public class MouseManager : MonoBehaviour
 
         if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 50, clickableLayer.value))
         {
-            bool door = false;
-            bool chest = false;
+            bool isDoor = false;
+            bool isChest = false;
 
             if(hit.collider.gameObject.tag == "Doorway")
             {
                 Cursor.SetCursor(doorway, new Vector2(16, 16), CursorMode.Auto);
-                door = true;
+                isDoor = true;
+            } else if (hit.collider.gameObject.tag == "Chest")
+            {
+                Cursor.SetCursor(chest, new Vector2(16, 16), CursorMode.Auto);
+                isChest = true;
             } else
             {
                 Cursor.SetCursor(target, new Vector2(16, 16), CursorMode.Auto);
             }
             if(Input.GetMouseButtonDown(0))
             {
-                if(door)
+                if(isDoor)
                 {
                     Transform doorway = hit.collider.gameObject.transform;
                     OnClickEnvironment.Invoke(doorway.position);
                     Debug.Log("DOOR");
                 }
-                else
+                else if (isChest)
+                {
+                    Transform chestPos = hit.collider.gameObject.transform;
+                    OnClickEnvironment.Invoke(chestPos.position);
+                    Debug.Log("Chest");
+
+                } else
                 {
                 OnClickEnvironment.Invoke(hit.point);
                 }
