@@ -65,6 +65,7 @@
     <Compile Include="Assets\SampleScript.cs" />
     <Compile Include="Assets\Scripts\GameDesign.cs" />
     <Compile Include="Assets\Scripts\MouseManager.cs" />
+    <Compile Include="Assets\Scripts\NPCController.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <None Include="Assets\Ground.shader" />
