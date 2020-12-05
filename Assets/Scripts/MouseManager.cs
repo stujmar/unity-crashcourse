@@ -32,6 +32,7 @@ public class MouseManager : MonoBehaviour
         if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 50, clickableLayer.value))
         {
             bool door = false;
+            bool chest = false;
 
             if(hit.collider.gameObject.tag == "Doorway")
             {
