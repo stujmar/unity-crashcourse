@@ -41,6 +41,7 @@ public class MouseManager : MonoBehaviour
                 isDoor = true;
             } else if (hit.collider.gameObject.tag == "Chest")
             {
+          
                 Cursor.SetCursor(chest, new Vector2(16, 16), CursorMode.Auto);
                 isChest = true;
                 Debug.Log("Chest Hover");
