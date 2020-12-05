@@ -779,7 +779,7 @@ MonoBehaviour:
   target: {fileID: 2800000, guid: 78c236d2f0aaeb54799825b586e1d03a, type: 3}
   doorway: {fileID: 2800000, guid: 93b6b5b776eee3d4197d3ccbda0839fb, type: 3}
   combat: {fileID: 2800000, guid: fe29901f68eb35c4ba9664967ca27d4c, type: 3}
-  chest: {fileID: 0}
+  chest: {fileID: 2800000, guid: d2da633669612444bb3490ceb1c9aa66, type: 3}
   OnClickEnvironment:
     m_PersistentCalls:
       m_Calls:
