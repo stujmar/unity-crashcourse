@@ -33,6 +33,6 @@ public class NPCController : MonoBehaviour
 
     void Tick()
     {
-
+        agent.destination = waypoints[index].position;
     }
 }
