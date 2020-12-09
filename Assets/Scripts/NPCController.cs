@@ -21,10 +21,7 @@ public class NPCController : MonoBehaviour
     {
         //    anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
-        if(agent != null)
-        {
-            agentSpeed = agent.speed;
-        }
+        if(agent != null){ agentSpeed = agent.speed;}
         player = GameObject.FindGameObjectWithTag("Player").transform;
         index = Random.Range(0, waypoints.Length);
     }
