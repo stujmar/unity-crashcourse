@@ -28,7 +28,7 @@ public class NPCController : MonoBehaviour
 
     void Patrol()
     {
-
+        index = index == waypoints.Length - 1 ? 0 : index + 1;
     }
 
     void Tick()
