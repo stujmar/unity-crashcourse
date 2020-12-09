@@ -9,10 +9,11 @@ public class NPCController : MonoBehaviour
     public float aggroRange = 10f;
     public Transform[] waypoints;
 
-    int index;
-    float speed, agentSpeed;
-    Transform player;
+    // Default accessor is private;
+    private int index;
+    private float speed, agentSpeed;
+    private Transform player;
 
-    Animator anim;
-    NavMeshAgent agent;
+    private Animator anim;
+    private NavMeshAgent agent;
 }
