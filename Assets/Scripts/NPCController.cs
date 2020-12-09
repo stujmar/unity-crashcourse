@@ -16,4 +16,9 @@ public class NPCController : MonoBehaviour
 
     private Animator anim;
     private NavMeshAgent agent;
+
+    private void Awake()
+    {
+        
+    }
 }
