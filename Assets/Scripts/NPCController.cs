@@ -25,4 +25,14 @@ public class NPCController : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         index = Random.Range(0, waypoints.Length);
     }
+
+    void Patrol()
+    {
+
+    }
+
+    void Tick()
+    {
+
+    }
 }
