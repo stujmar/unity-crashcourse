@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class NPCController : MonoBehaviour
 {
-    public float partrolTime = 10f;
+    public float patrolTime = 10f;
     public float aggroRange = 10f;
     public Transform[] waypoints;
 
@@ -24,6 +24,13 @@ public class NPCController : MonoBehaviour
         if(agent != null){ agentSpeed = agent.speed;}
         player = GameObject.FindGameObjectWithTag("Player").transform;
         index = Random.Range(0, waypoints.Length);
+
+        InvokeRepeating("Tick", 0, 0.5f);
+
+        if(waypoints.Length > 0)
+        {
+            InvokeRepeating("Patrol", 0, patrolTime);
+        }
     }
 
     void Patrol()
