@@ -5,8 +5,8 @@ using UnityEngine.AI;
 
 public class NPCController : MonoBehaviour
 {
-    public float patrolTime = 5f;
-    public float aggroRange = 10f;
+    public float patrolTime = 2f;
+    public float aggroRange = 5f;
     public Transform[] waypoints;
 
     // Default accessor is private;
