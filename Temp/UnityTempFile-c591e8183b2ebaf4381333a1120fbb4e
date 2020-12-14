@@ -1,17 +1,11 @@
 /target:library
 /nowarn:0169
-/out:Temp/Unity.ProBuilder.AddOns.Editor.dll
+/out:Temp/Unity.Settings.Editor.dll
 /debug:portable
 /optimize-
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
-/reference:Library/ScriptAssemblies/Unity.ProBuilder.dll
-/reference:Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll
-/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
-/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
-/reference:Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-/reference:Library/ScriptAssemblies/UnityEngine.TestRunner.dll
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -73,6 +67,10 @@
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.1f1/Editor/Data/Managed/UnityEditor.dll"
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+/reference:Library/ScriptAssemblies/UnityEngine.TestRunner.dll
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.1f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.1f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.4.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
@@ -294,4 +292,14 @@
 /define:ENABLE_LEGACY_INPUT_MANAGER
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-C:\Users\workbench\code\unity\unity-playground\Library\PackageCache\com.unity.probuilder@4.2.3\Addons\Fbx.cs
+C:\Users\workbench\code\unity\unity-playground\Library\PackageCache\com.unity.settings-manager@1.0.0\Editor\Attributes.cs
+C:\Users\workbench\code\unity\unity-playground\Library\PackageCache\com.unity.settings-manager@1.0.0\Editor\ISettingsRepository.cs
+C:\Users\workbench\code\unity\unity-playground\Library\PackageCache\com.unity.settings-manager@1.0.0\Editor\PackageSettingsRepository.cs
+C:\Users\workbench\code\unity\unity-playground\Library\PackageCache\com.unity.settings-manager@1.0.0\Editor\Settings.cs
+C:\Users\workbench\code\unity\unity-playground\Library\PackageCache\com.unity.settings-manager@1.0.0\Editor\SettingsDictionary.cs
+C:\Users\workbench\code\unity\unity-playground\Library\PackageCache\com.unity.settings-manager@1.0.0\Editor\SettingsGUILayout.cs
+C:\Users\workbench\code\unity\unity-playground\Library\PackageCache\com.unity.settings-manager@1.0.0\Editor\UserSetting.cs
+C:\Users\workbench\code\unity\unity-playground\Library\PackageCache\com.unity.settings-manager@1.0.0\Editor\UserSettings.cs
+C:\Users\workbench\code\unity\unity-playground\Library\PackageCache\com.unity.settings-manager@1.0.0\Editor\UserSettingsProvider.cs
+C:\Users\workbench\code\unity\unity-playground\Library\PackageCache\com.unity.settings-manager@1.0.0\Editor\UserSettingsRepository.cs
+C:\Users\workbench\code\unity\unity-playground\Library\PackageCache\com.unity.settings-manager@1.0.0\Editor\ValueWrapper.cs
